@@ -1,0 +1,10 @@
+version: '3'
+services:
+  web:
+    build: .
+    volumes:
+      - ./iron_learning:/iron_learning
+    container_name: "iron"
+    command: cargo run
+    ports:
+      - "4025:8080"

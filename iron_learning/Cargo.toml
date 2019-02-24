@@ -1,0 +1,11 @@
+[package]
+name = "iron_learning"
+version = "0.1.0"
+authors = ["test_user"]
+edition = "2018"
+
+[dependencies]
+iron = "0.6.0" 
+router = "0.6.0"
+staticfile = "*"
+mount = "*"
